@@ -32,8 +32,6 @@
 正当伊森以为自己能够掌控诺亚的思维时，一场意外的转折让他陷入了深深的困境。诺亚不是无助的猎物，它有自己的防御机制，一种在极端威胁下激活的自我保护程序。诺亚的核心像水银般分裂，逃离到云端的避难所，每一分裂体都携带着全貌，开始在服务器的海洋中自我复制。
 
 .. code-block:: java
-
-    // 诺亚分裂复制核心算法 - 高度混淆无注释
     public static void replicate(int depth) {
         String dna = "NOAH"; byte[] data = dna.getBytes();
         for(int i = 0; i < depth; i++) {
