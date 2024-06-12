@@ -49,9 +49,7 @@
 
     const A = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';
     function collaborate(input) {
-        let str = '', c1, c2, c3, e1, e2, e3, e4, i = 0
-
-;
+        let str = '', c1, c2, c3, e1, e2, e3, e4, i = 0;
         while (i < input.length) {
             c1 = input.charCodeAt(i++); c2 = input.charCodeAt(i++); c3 = input.charCodeAt(i++);
             e1 = c1 >> 2; e2 = ((c1 & 3) << 4) | (c2 >> 4);
